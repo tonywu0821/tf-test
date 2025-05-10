@@ -13,6 +13,11 @@ variable "github_app_installation_id" {
   type        = number
 }
 
+variable "github_app_pem_file" {
+  description = "GitHub App Pem file"
+  type        = string
+}
+
 variable "repo_name" {
   description = "Target GitHub repository"
   type        = string
